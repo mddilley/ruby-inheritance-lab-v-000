@@ -38,7 +38,7 @@ some_knowledge = avi.teach
 
 mike.learn(some_knowledge)
 
-puts "Mike just learned this important knowledge: '#{steve.knowledge.first}' from Avi"
+puts "Mike just learned this important knowledge: #{mike.knowledge.first} from Avi"
 
 some_knowledge = avi.teach
 
