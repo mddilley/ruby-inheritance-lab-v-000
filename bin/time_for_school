@@ -30,13 +30,13 @@ some_knowledge = avi.teach
 
 steve.learn(some_knowledge)
 
-puts "Steve just learned this important knowledge: '#{steve.knowledge.first}' from Avi"
+puts "Steve just learned this important knowledge: '#{steve.knowledge.second}' from Avi"
 
 some_knowledge = avi.teach
 
 steve.learn(some_knowledge)
 
-puts "Steve just learned this important knowledge: '#{steve.knowledge.first}' from Avi"
+puts "Steve just learned this important knowledge: '#{steve.knowledge.third}' from Avi"
 
 some_knowledge = avi.teach
 
@@ -48,4 +48,4 @@ some_knowledge = avi.teach
 
 mike.learn(some_knowledge)
 
-puts "Mike just learned this important knowledge: '#{steve.knowledge.first}' from Avi"
+puts "Mike just learned this important knowledge: '#{steve.knowledge.second}' from Avi"
