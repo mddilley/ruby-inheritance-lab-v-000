@@ -1,7 +1,7 @@
 class User
 
-  initialize
-
-  end
+  # initialize
+  #
+  # end
 
 end
