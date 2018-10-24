@@ -16,7 +16,9 @@ jim = User.new
 jim.first_name = "Jim"
 jim.last_name = "Smith"
 
-5.times(some_knowledge = avi.teach
+5.times(
+
+some_knowledge = avi.teach
 
 steve.learn(some_knowledge))
 
