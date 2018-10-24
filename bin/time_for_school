@@ -43,3 +43,7 @@ some_knowledge = avi.teach
 mike.learn(some_knowledge)
 
 puts "Mike just learned this important knowledge: #{mike.knowledge.join(", ")} from Avi."
+
+jim.learn(some_knowledge)
+
+puts "Jim just learned this important knowledge: #{jim.knowledge.join(", ")} from Avi."
