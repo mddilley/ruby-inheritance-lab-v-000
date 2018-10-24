@@ -24,19 +24,15 @@ some_knowledge = avi.teach
 
 steve.learn(some_knowledge)
 
-puts "Steve just learned this important knowledge: '#{steve.knowledge.first}' from Avi"
+some_knowledge = avi.teach
+
+steve.learn(some_knowledge)
 
 some_knowledge = avi.teach
 
 steve.learn(some_knowledge)
 
-puts "Steve just learned this important knowledge: '#{steve.knowledge.second}' from Avi"
-
-some_knowledge = avi.teach
-
-steve.learn(some_knowledge)
-
-puts "Steve just learned this important knowledge: '#{steve.knowledge.third}' from Avi"
+puts "Steve just learned this important knowledge: '#{steve.knowledge.split.join(", ")}' from Avi"
 
 some_knowledge = avi.teach
 
